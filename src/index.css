@@ -1,0 +1,51 @@
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  overflow-x: hidden;
+}
+
+
+.movie{
+  max-width: 300px;
+  transition: all .2s;
+}
+
+.movie:hover{
+  scale: 1.1;
+}
+
+.user-img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.img-wrapper{
+  max-width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+
+
+.class-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background: rgb(65, 53, 32);
+  cursor: pointer;
+}
+
+.card-review{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
